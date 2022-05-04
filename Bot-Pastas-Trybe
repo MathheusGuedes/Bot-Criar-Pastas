@@ -1,0 +1,122 @@
+#!/bin/bash
+
+clear
+echo "Iniciando o bot "; sleep 1
+printf "Sua pasta de exercicios será criada em : "
+pwd ; sleep 3
+echo
+echo "Criando pasta trybe-exercicios"; sleep 1
+echo
+mkdir trybe-exercicios ; cd trybe-exercicios
+echo "Criando pastas de modulos"; sleep 1
+echo
+mkdir Fundamentos Front-end Back-end Ciencia-computacao
+echo "Pastas criadas : "
+echo
+ls; sleep 3
+
+#cria as pastas do módulo 1
+clear
+echo "Criando pastas de Blocos do Módulo 1 e adicionando readme.md"; sleep 2
+echo
+cd Fundamentos
+mkdir bloco1-unix-bash bloco2-git-github-internet bloco3-introducao-html-css bloco4-introducao-javascript-logica-programacao bloco5-javascript-dom-eventos-web-storage bloco6-html-css-forms-flexbox-responsivo bloco7-introducao-javascript-es6-testes-unitarios bloco8-higher-order-functions-javascript-es6 bloco9-javascript-testes-assincronos
+cd bloco1-unix-bash ; touch README.md ; cd .. ;
+cd bloco2-git-github-internet ; touch README.md ; cd .. ;
+cd bloco3-introducao-html-css ; touch README.md ; cd .. ;
+cd bloco4-introducao-javascript-logica-programacao ; touch README.md ; cd .. ;
+cd bloco5-javascript-dom-eventos-web-storage ; touch README.md ; cd .. ;
+cd bloco6-html-css-forms-flexbox-responsivo ; touch README.md ; cd .. ;
+cd bloco7-introducao-javascript-es6-testes-unitarios ; touch README.md ; cd .. ;
+cd bloco8-higher-order-functions-javascript-es6 ; touch README.md ; cd .. ;
+cd bloco9-javascript-testes-assincronos ; touch README.md ; cd .. ;
+echo "Pastas criadas : "; sleep 1
+echo
+ls; sleep 3
+
+clear
+echo "Criando pastas de Blocos do Módulo 2 e adicionando readme.md"; sleep 2
+echo
+cd ../Front-end
+mkdir bloco10-introducao-react bloco11-componentes-estavo-eventos-formularios-react bloco12-ciclo-vida-componentes-react-router bloco13-metodologias-ageis bloco14-teste-automatizados-react-testing-library bloco15-gerenciamento-estado-redux bloco16-projeto-jogo-trivia bloco17-context-api-react-hooks bloco18-projeto-app-receitas
+cd bloco10-introducao-react ; touch README.md ; cd .. ;
+cd bloco11-componentes-estavo-eventos-formularios-react ; touch README.md ; cd .. ;
+cd bloco12-ciclo-vida-componentes-react-router ; touch README.md ; cd .. ;
+cd bloco13-metodologias-ageis ; touch README.md ; cd .. ;
+cd bloco14-teste-automatizados-react-testing-library ; touch README.md ; cd .. ;
+cd bloco15-gerenciamento-estado-redux ; touch README.md ; cd .. ;
+cd bloco16-projeto-jogo-trivia ; touch README.md ; cd .. ;
+cd bloco17-context-api-react-hooks ; touch README.md ; cd .. ;
+cd bloco18-projeto-app-receitas ; touch README.md ; cd .. ;
+echo "Pastas criadas : "; sleep 1
+echo
+ls; sleep 3
+
+clear
+echo "Criando pastas de Blocos do Módulo 3 e adicionando readme.md"; sleep 2
+echo
+cd ../Back-end
+mkdir bloco19-docker-utilizando-containers bloco20-introducao-sql bloco21-funcoes-sql-joins-normalizacao bloco22-introducao-desenvolvimento-web-nodejs bloco23-nodejs-camada-servico-arquitetura-rest-restful bloco24-nodejs-orm-autenticacao bloco25-deployment bloco26-typescript bloco27-programacao-orientada-objeto-poo-solid bloco28-projeto-tfc-trybe-futebol-clube bloco29-introducao-mongodb bloco30-mongodb-updates-simples-complexos bloco31-masterclass-vps-cicd bloco32-projeto-app-delivery 
+cd bloco19-docker-utilizando-containers ; touch README.md ; cd .. ;
+cd bloco20-introducao-sql ; touch README.md ; cd .. ;
+cd bloco21-funcoes-sql-joins-normalizacao ; touch README.md ; cd .. ;
+cd bloco22-introducao-desenvolvimento-web-nodejs ; touch README.md ; cd .. ;
+cd bloco23-nodejs-camada-servico-arquitetura-rest-restful ; touch README.md ; cd .. ;
+cd bloco24-nodejs-orm-autenticacao ; touch README.md ; cd .. ;
+cd bloco25-deployment ; touch README.md ; cd .. ;
+cd bloco26-typescript ; touch README.md ; cd .. ;
+cd bloco27-programacao-orientada-objeto-poo-solid ; touch README.md ; cd .. ;
+cd bloco28-projeto-tfc-trybe-futebol-clube ; touch README.md ; cd .. ;
+cd bloco29-introducao-mongodb ; touch README.md ; cd .. ;
+cd bloco30-mongodb-updates-simples-complexos ; touch README.md ; cd .. ;
+cd bloco31-masterclass-vps-cicd ; touch README.md ; cd .. ;
+cd bloco32-projeto-app-delivery ; touch README.md ; cd .. ;
+echo "Pastas criadas : "; sleep 1
+echo
+ls; sleep 3
+
+clear
+echo "Criando pastas de Blocos do Módulo 3 e adicionando readme.md"; sleep 2
+echo
+cd ../Ciencia-computacao
+mkdir bloco33-introducao-python bloco34-programacao-orientada-objeto-padroes-projeto bloco35-redes-raspagem-dados bloco36-algoritmos bloco37-estrutura-dados-i-arrays-hashmaps-sets bloco38-estrutura-dados-ii-listas-filas-pilhas
+cd bloco33-introducao-python ; touch README.md ; cd .. ;
+cd bloco34-programacao-orientada-objeto-padroes-projeto ; touch README.md ; cd .. ;
+cd bloco35-redes-raspagem-dados ; touch README.md ; cd .. ;
+cd bloco36-algoritmos ; touch README.md ; cd .. ;
+cd bloco37-estrutura-dados-i-arrays-hashmaps-sets ; touch README.md ; cd .. ;
+cd bloco38-estrutura-dados-ii-listas-filas-pilhas ; touch README.md ; cd .. ;
+echo "Pastas criadas : "; sleep 1
+echo
+ls; sleep 3
+
+clear
+echo "Todas as pastas foram criadas, já pode encerrar !! ctrl + c" ; sleep 4;
+for counter in {1..1000}; do 
+    printf "VQV !!! " ; sleep 0.15
+    if [ $counter -eq 50 ]; then
+        echo
+        echo "É SERIO ! pode encerrar, isso aqui vai rodar umas 1000 vezes. VQV !!!".
+        echo
+    fi
+    if [ $counter -eq 100 ]; then
+        echo
+        echo "Ainda por aqui ? Não esqueça de responder o forms em. ".
+        echo
+    fi
+    if [ $counter -eq 200 ]; then
+        echo
+        echo "Isso aqui já rodou 200 vezes, já fez os exercicios de hoje ? ".
+        echo
+    fi
+    if [ $counter -eq 250 ]; then
+        echo
+        echo "Quem veio primeiro ? O ovo ou a galinha ? ".
+        echo
+    fi
+    if [ $counter -eq 300 ]; then
+        echo
+        echo "Minha criatividade está acabando  ".
+        echo
+    fi
+done
